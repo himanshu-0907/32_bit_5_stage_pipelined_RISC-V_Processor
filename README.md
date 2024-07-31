@@ -11,27 +11,27 @@ The processor has 5 stages :
 
 Following instructions have been implemented in the project :
 ******R-Type******
-ADD
-SUB
-AND
-OR
-SLT
-MUL
-HLT
+1. ADD
+2. SUB
+3. AND
+4. OR
+5. SLT
+6. MUL
+7. HLT
 
 ******I-Type******
-LW
-ADDI
-SUBI
-SLTI
-BNEQZ
-BEQZ
+8. LW
+9. ADDI
+10. SUBI
+11. SLTI
+12. BNEQZ
+13. BEQZ
 
 
 I have checked the working of the processor using three testbenches :
-test_1 : to add three numbers stored in registers R1, R2, R3 and store the result in the register R5.
-test_2 : Loading a word from Memory Loacation 120, adding 45 to it and storing the result in the Memory Location 121
-test_3 : to calculate the factorial of a number N stored in memory location mem[200] and storing the result in the memory location mem[198]
+1. test_1 : to add three numbers stored in registers R1, R2, R3 and store the result in the register R5.
+2. test_2 : Loading a word from Memory Loacation 120, adding 45 to it and storing the result in the Memory Location 121
+3. test_3 : to calculate the factorial of a number N stored in memory location mem[200] and storing the result in the memory location mem[198]
 
 
 The code for the Processor is written in such a way that more instructions can be easily added in it in future.
