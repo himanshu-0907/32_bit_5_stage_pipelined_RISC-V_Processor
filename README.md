@@ -9,8 +9,8 @@ The processor has 5 stages :
 4. Memory Access / Branch Completion Stage(MEM)
 5. Writeback Stage(WB)
 
-Following instructions have been implemented in the project :
-******R-Type******
+Following instructions have been implemented in the project :  
+a) ******R-Type******  
 1. ADD
 2. SUB
 3. AND
@@ -19,13 +19,13 @@ Following instructions have been implemented in the project :
 6. MUL
 7. HLT
 
-******I-Type******
-8. LW
-9. ADDI
-10. SUBI
-11. SLTI
-12. BNEQZ
-13. BEQZ
+b) ******I-Type******   
+8.  LW 
+9.  ADDI 
+10.  SUBI 
+11.  SLTI 
+12.  BNEQZ 
+13.  BEQZ 
 
 
 I have checked the working of the processor using three testbenches :
